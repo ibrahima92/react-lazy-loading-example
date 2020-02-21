@@ -5,9 +5,50 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #f5f6f7;
+  line-height: 1.8;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main {
+  max-width: 700px;
+  margin: auto;
+  padding: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Navbar */
+
+.navbar {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 180px;
+background: #00a6c4;
+margin: auto;
+}
+
+.navbar li a {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+/* Post card */
+
+.card {
+  border-radius: 10px;
+  background: #fff;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0 10px 42px rgba(25,17,34,.1);
+}
+
+.card h1 {
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: #00a6c4;
 }
